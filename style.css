@@ -40,7 +40,7 @@ h2 {
 
 .pokemon-container {
 	padding: 2rem;
-	margin-top: 50px;
+	margin-top: 30px;
 	border: 1px double black;
 	border-radius: 10px 10px 10px 10px;
 	text-align: center;
@@ -123,13 +123,13 @@ footer a {
 	.pokemon-container {
 		margin-top: 20px;
 		width: 300px;
-		height: 400px;
+		height: 375px;
 	}
 	h2 {
 		font-size: 20px;
 		text-transform: capitalize;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
 	.type,
 	.stats {
