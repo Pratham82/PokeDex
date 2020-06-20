@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Press Start 2P", cursive;
+	font-family: "Poppins", sans-serif;
+	font-family: "Raleway", sans-serif;
+	font-family: "Source Code Pro", monospace;
+
+	background-image: url(img/1475361156.blazingifrit_zoruaeevee_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.type,
+.stats {
+	text-transform: capitalize;
+	text-align: left;
+	font-size: 15px;
+	font-size: 22px;
+	/* line-height: 29px; */
+	/* font-weight: 700; */
+}
+
+h2 {
+	text-transform: capitalize;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.pokemon-container {
+	padding: 2rem;
+	border: 1px double black;
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	font-weight: 600;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0.5rem 0.5rem;
+	padding: 0.5rem 0.5rem;
+}
+
+#container #search,
+#search-btn {
+	padding: 0.6rem;
+	margin: 0.6rem;
+	border-radius: 10px 10px 10px 10px;
+	border: 0.05px solid #3533337a;
+	font-family: "Poppins", sans-serif;
+	outline: none;
+	font-size: 1.15rem;
+	transition: 0.5s;
+}
+
+#container #search {
+	background-color: #e0d9d9d7;
+}
+#container #search-btn:hover {
+	background-color: rgb(212, 211, 211);
+}
+
+#container .pokemon-container {
+	height: 15rem;
+}
