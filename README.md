@@ -2,7 +2,7 @@
 
 PokeDex app in Vanilla JS using  for GUI and [pokeapi](https://pokeapi.co/api/v2/pokemon/) .
 
-![](https://i.postimg.cc/KjjqN9hT/Pokedex.jpg)
+![](https://i.postimg.cc/B6TLzs49/Pokedex.jpg)
  
 ####  Features:
 - Get Stats of pokemon
