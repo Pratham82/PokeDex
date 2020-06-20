@@ -7,7 +7,7 @@ console.log(inputEl);
 formEl.addEventListener("submit", (e) => {
 	e.preventDefault();
 	pokeContainer.innerHTML = "";
-	getPokemon(inputEl.value);
+	getPokemon(inputEl.value.toLowerCase());
 });
 
 const colors = {
