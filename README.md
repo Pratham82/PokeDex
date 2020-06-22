@@ -1,6 +1,6 @@
 # PokeDex
 
-PokeDex app in Vanilla JS using  for GUI and [pokeapi](https://pokeapi.co/api/v2/pokemon/) .
+PokeDex app in Vanilla JS using [pokeapi](https://pokeapi.co/api/v2/pokemon/) .
 I used Async await feature of vanilla JS in this app.
 
 ![](https://i.postimg.cc/B6TLzs49/Pokedex.jpg)
