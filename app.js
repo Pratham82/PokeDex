@@ -45,9 +45,7 @@ async function getPokemon(name = "charizard") {
 
 	pokeEl.innerHTML = `
     <div class="info">
-      <img src="https://pokeres.bastionbot.org/images/pokemon/${
-			pokemon.id
-		}.png" width="200">
+      <img src=`${pokemon.sprites.front_default}` width="200">
 <h2>${pokemon.name}</h2>
     </div>
 
